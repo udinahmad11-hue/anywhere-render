@@ -1,12 +1,30 @@
 {
-  "name": "cors-anywhere-node-render",
+  "name": "cors-anywhere-render",
   "version": "1.0.0",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.19.2",
-    "node-fetch": "^3.3.2"
-  },
+  "description": "CORS Anywhere Proxy untuk Render.com",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cors",
+    "proxy",
+    "render",
+    "m3u8",
+    "streaming"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^7.1.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
