@@ -1,17 +1,12 @@
 {
-  "name": "cors-proxy-server",
+  "name": "anywhere-proxy-render",
   "version": "1.0.0",
-  "description": "Simple CORS Proxy Server",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "cors": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=16.0.0"
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
   }
 }
